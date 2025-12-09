@@ -43,28 +43,40 @@ lib/
 ├── Controllers/
 
 │ ├── NotesControllers/
+|
 │ └── TasksControllers/
+|
 
 ├── Data/
+
 │ ├── NotesModels/
+
 │ └── TasksModels/
 
+|
 ├── Views/
+|
 │ ├── NotesPages/
+|
 │ └── TasksPages/
 
+|
 ├── Services/
+|
 │ └── NotificationService.dart
+|
 
 ├── Authentication/
 
+
 ├── Widgets/
+
 
 └── main.dart
 
 
 
-⭐ Support
+#⭐ Support
 
 If you like Audio Notes X, leave a ⭐ on the repo!
 
