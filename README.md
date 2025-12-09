@@ -41,19 +41,32 @@ Built with **Hive**, **GetX**, **Local Notifications**, **STT** and **TTS**, it 
 
 lib/
 ├── Controllers/
+
 │ ├── NotesControllers/
 │ └── TasksControllers/
+
 ├── Data/
 │ ├── NotesModels/
 │ └── TasksModels/
+
 ├── Views/
 │ ├── NotesPages/
 │ └── TasksPages/
+
 ├── Services/
 │ └── NotificationService.dart
+
 ├── Authentication/
+
 ├── Widgets/
+
 └── main.dart
+
+
+
+⭐ Support
+
+If you like Audio Notes X, leave a ⭐ on the repo!
 
 
 
