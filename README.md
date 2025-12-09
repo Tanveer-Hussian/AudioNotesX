@@ -1,16 +1,59 @@
-# audio_notes_x
+# 🎧 Audio Notes X  
+### Voice Notes + Smart TaskFlow in One Powerful App
 
-A new Flutter project.
+Audio Notes X is a modern productivity app that combines **voice notes**, **text notes**, **task management**, and **smart reminders** — all in a clean, intuitive Flutter interface.  
+Built with **Hive**, **GetX**, **Local Notifications**, **STT** and **TTS**, it gives users a seamless experience for capturing ideas and managing daily tasks.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🎙️ Voice Notes
+- Record high-quality audio notes  
+- Waveform-style UI (planned)  
+- Text-To-Speech (TTS) playback  
+- View, edit, delete, and search notes  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📝 Text Notes
+- Create, edit, search, and organize text notes  
+- Instant filtering via a custom SearchController  
+- Offline access with Hive storage  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✅ Smart TaskFlow (To-Do System)
+- Add, edit, and schedule tasks  
+- Notification-based reminders  
+- Date-based filtering  
+- Minimal and intuitive UI  
+
+### 🔔 Notifications
+- Exact alarm support (Android 13+)  
+- Timezone-aware scheduling  
+- Handles permissions with fallback  
+
+### 👤 Login System
+- Local authentication using SharedPreferences  
+- Saves and restores user session  
+
+---
+
+## 🏗️ Project Structure
+
+
+lib/
+├── Controllers/
+│ ├── NotesControllers/
+│ └── TasksControllers/
+├── Data/
+│ ├── NotesModels/
+│ └── TasksModels/
+├── Views/
+│ ├── NotesPages/
+│ └── TasksPages/
+├── Services/
+│ └── NotificationService.dart
+├── Authentication/
+├── Widgets/
+└── main.dart
+
+
+
